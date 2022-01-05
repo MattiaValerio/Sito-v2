@@ -497,7 +497,7 @@ input:focus, textarea:focus, select:focus{
         justify-content: space-around;
         align-items: center;
         animation: navbar;
-        animation-duration: 2s;
+        animation-duration: 1.55s;
     }
 
     .on a{
@@ -505,7 +505,7 @@ input:focus, textarea:focus, select:focus{
         opacity: 75%;
         font-size: 3rem;
         animation: appear;
-        animation-duration: 3s;
+        animation-duration: 2s;
         font-family: 'Roboto Mono', monospace;
     }
 }
