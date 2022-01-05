@@ -4,7 +4,13 @@ new fullpage('#fullpage', {
     showActiveTooltip: true,
 });
 
+var x = document.getElementById("tend");
 function navbar() {
-    var x = document.getElementById("tend");
     x.setAttribute("class", "on")
+
   }
+
+let g = x.classList.contains('on');
+if(g == true){
+    fullpage.navigation=false
+}

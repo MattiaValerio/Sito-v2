@@ -505,7 +505,7 @@ input:focus, textarea:focus, select:focus{
         opacity: 75%;
         font-size: 3rem;
         animation: appear;
-        animation-duration: 10s;
+        animation-duration: 3s;
         font-family: 'Roboto Mono', monospace;
     }
 }
