@@ -61,6 +61,12 @@ nav a{
 .m-menu{
     display: none;
 }
+.m-menu:hover{
+    cursor: pointer;
+}
+.mob-menu{
+    display: none;
+}
 
 /*-------------descrizione e socials--------------------*/
 .main{
@@ -309,6 +315,7 @@ input:focus, textarea:focus, select:focus{
         width: 35%;
     }
 
+    
     .s1{
         height: 90vh;
     }
@@ -475,4 +482,69 @@ input:focus, textarea:focus, select:focus{
     .callcenter img{
         width: 15rem;
     }
+
+
+    /*Animazione navbar-mobile*/
+    .on{
+        border: 1px solid red;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        animation: navbar;
+        animation-duration: 2s;
+    }
+
+    .on a{
+        color: white;
+        opacity: 75%;
+        font-size: 3rem;
+        animation: appear;
+        animation-duration: 10s;
+        font-family: 'Roboto Mono', monospace;
+    }
 }
+
+@keyframes navbar {
+    from{
+        height: 0vh;
+    }
+
+    to{
+        height: 100vh;
+    }
+}
+
+@keyframes navbar-off {
+    from{
+        height: 100vh;
+    }
+
+    to{
+        height: 0vh;
+    }
+}
+
+@keyframes appear {
+    from{
+        opacity: 0%;
+    }
+
+    to{
+        opacity: 75%;
+    }
+}
+
+
+/*Animazione navbar-mobile*/
+.tendina{
+    display: none;
+    height: 100vh;
+}
+
