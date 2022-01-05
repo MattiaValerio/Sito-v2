@@ -4,13 +4,14 @@ new fullpage('#fullpage', {
     showActiveTooltip: true,
 });
 
-var x = document.getElementById("tend");
+
+let menu = document.getElementById("tend");
 function navbar() {
-    x.setAttribute("class", "on")
+    menu.setAttribute("class", "on");
+    menu.classList.contains('on');
+}
 
-  }
-
-let g = x.classList.contains('on');
-if(g == true){
-    fullpage.navigation=false
+function exit(){
+    menu.setAttribute("class", "off");
+    menu.classList.contains('off');
 }

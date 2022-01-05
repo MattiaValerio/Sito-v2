@@ -496,7 +496,7 @@ input:focus, textarea:focus, select:focus{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        animation: navbar;
+        animation: navbar-on;
         animation-duration: 1.55s;
     }
 
@@ -508,9 +508,32 @@ input:focus, textarea:focus, select:focus{
         animation-duration: 2s;
         font-family: 'Roboto Mono', monospace;
     }
+
+    .off{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        animation: navbar-off;
+        animation-duration: 1.55s;
+    }
+    .off a{
+        color: white;
+        opacity: 75%;
+        font-size: 3rem;
+        animation: disappear;
+        animation-duration: 2s;
+        font-family: 'Roboto Mono', monospace;
+    }
 }
 
-@keyframes navbar {
+@keyframes navbar-on{
     from{
         height: 0vh;
     }
@@ -537,6 +560,15 @@ input:focus, textarea:focus, select:focus{
 
     to{
         opacity: 75%;
+    }
+}
+@keyframes disappear {
+    from{
+        opacity: 75%;
+    }
+
+    to{
+        opacity: 0%;
     }
 }
 
