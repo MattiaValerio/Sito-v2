@@ -16,7 +16,6 @@ body{
     background-color: black;
 }
 nav{
-    border: 1px solid yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -308,7 +307,10 @@ input:focus, textarea:focus, select:focus{
         display: flex;
         margin: 2px;
         width: 35%;
+    }
 
+    .s1{
+        height: 90vh;
     }
     /*-------------section 1--------------------*/
     .main{
@@ -316,7 +318,7 @@ input:focus, textarea:focus, select:focus{
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        height: 94vh;
+        height: 84vh;
         background-color: black;
         color: white;
         margin-right: 2em;
@@ -333,7 +335,7 @@ input:focus, textarea:focus, select:focus{
         align-items: center;
     }
     .personaggio img{
-        width: 50vw;
+        width: 40vw;
     }
     
     .main2{
