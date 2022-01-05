@@ -500,7 +500,7 @@ input:focus, textarea:focus, select:focus{
         animation-duration: 1.55s;
     }
 
-    .on a{
+    .on h1{
         color: white;
         opacity: 75%;
         font-size: 3rem;
@@ -523,7 +523,7 @@ input:focus, textarea:focus, select:focus{
         animation: navbar-off;
         animation-duration: 1.55s;
     }
-    .off a{
+    .off h1{
         color: white;
         opacity: 75%;
         font-size: 3rem;
