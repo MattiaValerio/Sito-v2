@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="34" viewBox="0 0 46 34">
+  <g id="navbar" transform="translate(-316 -31)">
+    <g id="Rettangolo_24" data-name="Rettangolo 24" transform="translate(316 31)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="46" height="9" rx="4.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="45" height="8" rx="4" fill="none"/>
+    </g>
+    <g id="Rettangolo_25" data-name="Rettangolo 25" transform="translate(316 43)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="46" height="9" rx="4.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="45" height="8" rx="4" fill="none"/>
+    </g>
+    <g id="Rettangolo_26" data-name="Rettangolo 26" transform="translate(316 56)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="46" height="9" rx="4.5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="45" height="8" rx="4" fill="none"/>
+    </g>
+  </g>
+</svg>
