@@ -502,7 +502,6 @@ input:focus, textarea:focus, select:focus{
 
     .on h1{
         color: white;
-        opacity: 75%;
         font-size: 3rem;
         animation: appear;
         animation-duration: 2s;
@@ -511,7 +510,7 @@ input:focus, textarea:focus, select:focus{
 
     .off{
         width: 100vw;
-        height: 100vh;
+        height: 0vh;
         background-color: black;
         position: fixed;
         z-index: 9999;
@@ -525,10 +524,10 @@ input:focus, textarea:focus, select:focus{
     }
     .off h1{
         color: white;
-        opacity: 75%;
+        opacity: 0;
         font-size: 3rem;
         animation: disappear;
-        animation-duration: 2s;
+        animation-duration: 1s;
         font-family: 'Roboto Mono', monospace;
     }
 }
@@ -542,6 +541,15 @@ input:focus, textarea:focus, select:focus{
         height: 100vh;
     }
 }
+@keyframes appear {
+    from{
+        opacity: 0%;
+    }
+
+    to{
+        opacity: 75%;
+    }
+}
 
 @keyframes navbar-off {
     from{
@@ -550,16 +558,6 @@ input:focus, textarea:focus, select:focus{
 
     to{
         height: 0vh;
-    }
-}
-
-@keyframes appear {
-    from{
-        opacity: 0%;
-    }
-
-    to{
-        opacity: 75%;
     }
 }
 @keyframes disappear {
@@ -573,9 +571,19 @@ input:focus, textarea:focus, select:focus{
 }
 
 
+
+
+
 /*Animazione navbar-mobile*/
 .tendina{
     display: none;
     height: 100vh;
 }
 
+#tend > h1:hover{
+    cursor: pointer;
+}
+
+#tend > a{
+    border: 1px solid red;
+}
