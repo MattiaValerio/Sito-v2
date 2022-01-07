@@ -1,8 +1,7 @@
 x = new fullpage('#fullpage', {
+    anchors: ['#s1', '#s2', '#s3', '#sec4'],
     navigation: true,
     navigationPosition: 'right',
-    showActiveTooltip: true,
-    anchors: ['#s1', '#s2', '#s3', '#s4']
 });
 
 
@@ -21,13 +20,22 @@ function navbar() {
  
 
 function exit(){
-    menu.removeAttribute("class", "on")
+    menu.removeAttribute("class", "on");
     menu.setAttribute("class", "off");
 }
 
 function exitp(){
-    menu.removeAttribute("class", "on")
+    menu.removeAttribute("class", "on");
     menu.setAttribute("class", "off");
-    
+    setTimeout(()=>{
+        x.moveTo('#s3', 1)
+    }, 1000);
 }
 
+function exitc(){
+    menu.removeAttribute("class", "on");
+    menu.setAttribute("class", "off");
+    setTimeout(()=>{
+        x.moveTo('#sec4', 1)
+    }, 1000);
+}
