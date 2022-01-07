@@ -587,3 +587,9 @@ input:focus, textarea:focus, select:focus{
 #tend > a{
     border: 1px solid red;
 }
+
+@media(max-device-height: 467px){
+    .callcenter{
+        display: none;
+    }
+}
