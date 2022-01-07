@@ -587,7 +587,7 @@ input:focus, textarea:focus, select:focus{
 }
 
 
-@media (max-device-height: 514px) {
+@media (max-device-height: 500px) {
     .callcenter img{
         display: none;
     }
