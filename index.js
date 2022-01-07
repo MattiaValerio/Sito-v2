@@ -1,5 +1,5 @@
 x = new fullpage('#fullpage', {
-    anchors: ['#s1','#s3', '#sec4'],
+    anchors: ['#s1','se2', '#s3', '#sec4'],
     navigation: true,
     navigationPosition: 'right',
 });
