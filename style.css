@@ -316,7 +316,7 @@ input:focus, textarea:focus, select:focus{
     }
 
     
-    .s1{
+    .sec1{
         height: 90vh;
     }
     /*-------------section 1--------------------*/
@@ -434,9 +434,8 @@ input:focus, textarea:focus, select:focus{
         width: 100vw;
         display: flex;
         justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: wrap;
+        align-items:center;
+        flex-direction:column;
     }
     
     .inputs{
@@ -468,7 +467,6 @@ input:focus, textarea:focus, select:focus{
     }
     
     .btn{
-
         height: 5vh;
         width: 30vw;
         border-radius: 20px;
@@ -586,10 +584,4 @@ input:focus, textarea:focus, select:focus{
 
 #tend > a{
     border: 1px solid red;
-}
-
-@media(max-device-height: 167px){
-    .callcenter{
-        display: none;
-    }
 }
