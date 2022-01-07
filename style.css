@@ -429,7 +429,7 @@ input:focus, textarea:focus, select:focus{
     }
     
     /*-------------section 4--------------------*/
-    .s4{
+    .box4{
         height: 100vh;
         width: 100vw;
         display: flex;
