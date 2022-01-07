@@ -242,7 +242,7 @@ input:focus, textarea:focus, select:focus{
 
 
 
-@media(max-device-width: 1067px) {
+@media(max-device-width: 767px) {
     *{
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
