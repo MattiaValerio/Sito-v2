@@ -17,8 +17,19 @@ function navbar() {
         x.navigation = true;
     }
 }
- 
+//Anuimazione navbar
+function home(){
+    x.moveTo('#s1', 1)
+}
 
+function projects(){
+    x.moveTo('#s3', 1)
+}
+
+function contacts(){
+    x.moveTo('#sec4', 1)
+}
+//Animazioni mobile-navbar
 function exit(){
     menu.removeAttribute("class", "on");
     menu.setAttribute("class", "off");

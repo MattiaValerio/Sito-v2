@@ -32,7 +32,7 @@ nav ul{
     align-items: center;
     width: 30vw;
 }
-nav a{
+nav li{
     color: white;
     text-decoration: none;
     font-size: 1.3vw;
@@ -42,6 +42,9 @@ nav a{
     justify-content: center;
     align-items: center;
     justify-content: center;
+}
+nav li:hover{
+    
 }
 
 .logo{
@@ -224,8 +227,16 @@ input:focus, textarea:focus, select:focus{
     cursor: pointer;
 }
 
+.callcenter{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .callcenter img{
-    width: 23rem;
+    width:80vw;
+    height: 30vw;
 }
 
 
@@ -435,7 +446,6 @@ input:focus, textarea:focus, select:focus{
         display: flex;
         justify-content: center;
         align-items:center;
-        flex-direction:column;
     }
     
     .inputs{
@@ -527,6 +537,18 @@ input:focus, textarea:focus, select:focus{
         animation: disappear;
         animation-duration: 1s;
         font-family: 'Roboto Mono', monospace;
+    }
+
+    .callcenter{
+        width: 20rem;
+        height: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .callcenter img{
+        width:80vw;
+        height: 80vw;
     }
 }
 
