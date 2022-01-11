@@ -44,7 +44,7 @@ nav li{
     justify-content: center;
 }
 nav li:hover{
-    
+    cursor: pointer;
 }
 
 .logo{
@@ -384,6 +384,16 @@ input:focus, textarea:focus, select:focus{
     
     .side-bar img{
         height: 5.5vw;
+    }
+
+    #homebtn{
+        cursor: pointer;
+    }
+    #pbtn{
+        cursor: pointer;
+    }
+    #contbtn{
+        cursor: pointer;
     }
     
     /*-------------section 2--------------------*/
